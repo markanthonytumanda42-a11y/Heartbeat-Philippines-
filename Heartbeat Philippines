@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeartBeat PH | Grow, Glow, Go</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-poppins">
+    <custom-navbar></custom-navbar>
+    
+    <div id="hero" class="relative h-screen flex items-center justify-center text-white overflow-hidden">
+        <div class="absolute inset-0 bg-black/50 z-10"></div>
+        <div class="container mx-auto px-6 relative z-20 text-center">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 animate-fadeIn">HeartBeat <span class="text-emerald-400">Philippines</span></h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">Empowering communities through sustainable growth, education, and innovation</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#causes" class="px-8 py-3 bg-emerald-600 hover:bg-emerald-700 rounded-full font-medium transition-all transform hover:scale-105">Our Causes</a>
+                <a href="#donate" class="px-8 py-3 bg-white text-gray-900 hover:bg-gray-100 rounded-full font-medium transition-all transform hover:scale-105">Donate Now</a>
+            </div>
+        </div>
+    </div>
+
+    <section id="stats" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Philippines Community Challenges</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="text-5xl font-bold text-emerald-600 mb-4">4.5M</div>
+                    <h3 class="text-xl font-semibold mb-2">Indigenous People</h3>
+                    <p class="text-gray-600">Lack access to education and healthcare services.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="text-5xl font-bold text-emerald-600 mb-4">3.1M</div>
+                    <h3 class="text-xl font-semibold mb-2">Homeless Individuals</h3>
+                    <p class="text-gray-600">Living in poverty without proper shelter.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="text-5xl font-bold text-emerald-600 mb-4">74%</div>
+                    <h3 class="text-xl font-semibold mb-2">Youth Unemployment</h3>
+                    <p class="text-gray-600">Lack of job opportunities for graduates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="causes" class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Causes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <a href="indigenous.html" class="group">
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all transform group-hover:-translate-y-2">
+                        <div class="h-48 bg-gradient-to-r from-emerald-400 to-teal-500 flex items-center justify-center">
+                            <i data-feather="users" class="w-16 h-16 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">For Indigenous People</h3>
+                            <p class="text-gray-600">Education and cultural preservation programs.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="homeless.html" class="group">
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all transform group-hover:-translate-y-2">
+                        <div class="h-48 bg-gradient-to-r from-amber-400 to-orange-500 flex items-center justify-center">
+                            <i data-feather="home" class="w-16 h-16 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">For Homeless</h3>
+                            <p class="text-gray-600">Shelter and livelihood training initiatives.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="innovation.html" class="group">
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all transform group-hover:-translate-y-2">
+                        <div class="h-48 bg-gradient-to-r from-blue-400 to-indigo-500 flex items-center justify-center">
+                            <i data-feather="zap" class="w-16 h-16 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">For Innovation</h3>
+                            <p class="text-gray-600">Supporting Filipino tech entrepreneurs.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="sustainability.html" class="group">
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all transform group-hover:-translate-y-2">
+                        <div class="h-48 bg-gradient-to-r from-green-400 to-emerald-500 flex items-center justify-center">
+                            <i data-feather="leaf" class="w-16 h-16 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Sustainability Program</h3>
+                            <p class="text-gray-600">Environmental conservation and green jobs.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="education.html" class="group">
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all transform group-hover:-translate-y-2">
+                        <div class="h-48 bg-gradient-to-r from-purple-400 to-fuchsia-500 flex items-center justify-center">
+                            <i data-feather="book" class="w-16 h-16 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Education Initiative</h3>
+                            <p class="text-gray-600">Scholarships and school building projects.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="healthcare.html" class="group">
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all transform group-hover:-translate-y-2">
+                        <div class="h-48 bg-gradient-to-r from-red-400 to-pink-500 flex items-center justify-center">
+                            <i data-feather="heart" class="w-16 h-16 text-white"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Healthcare Access</h3>
+                            <p class="text-gray-600">Medical missions and health education.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="donate" class="py-16 bg-emerald-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Make a Difference</h2>
+            <div class="max-w-2xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/2 bg-gradient-to-br from-emerald-400 to-teal-500 p-8 flex flex-col justify-center text-white">
+                        <h3 class="text-2xl font-bold mb-4">Your Donation Matters</h3>
+                        <p class="mb-6">Every peso helps us create sustainable change in Filipino communities.</p>
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <i data-feather="check-circle" class="mr-2"></i>
+                                <span>₱20 provides school supplies</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i data-feather="check-circle" class="mr-2"></i>
+                                <span>₱500 feeds a family for a week</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i data-feather="check-circle" class="mr-2"></i>
+                                <span>₱1000 funds livelihood training</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 p-8">
+                        <h3 class="text-xl font-bold mb-6 text-center">Donation Form</h3>
+                        <form class="space-y-4">
+                            <div>
+                                <label class="block text-gray-700 mb-2">Amount (PHP)</label>
+                                <input type="number" min="20" max="50000" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-emerald-400 focus:border-emerald-400" placeholder="Enter amount">
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 mb-2">Full Name</label>
+                                <input type="text" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-emerald-400 focus:border-emerald-400" placeholder="Your name">
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 mb-2">Email</label>
+                                <input type="email" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-emerald-400 focus:border-emerald-400" placeholder="Your email">
+                            </div>
+                            <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-3 px-4 rounded-lg font-medium transition-all transform hover:scale-105">Donate Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="py-16 bg-gray-900 text-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Team</h2>
+            <p class="text-center max-w-3xl mx-auto mb-12 text-gray-300">Students from Leyte Normal University dedicated to community development through the Grow, Glow, Go initiative.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-800 p-6 rounded-xl text-center">
+                    <div class="w-24 h-24 mx-auto rounded-full bg-emerald-500 mb-4 flex items-center justify-center text-2xl font-bold">MC</div>
+                    <h3 class="text-xl font-semibold mb-1">Mark Anthony C. Tumanda</h3>
+                    <p class="text-emerald-400">Team Lead</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl text-center">
+                    <div class="w-24 h-24 mx-auto rounded-full bg-blue-500 mb-4 flex items-center justify-center text-2xl font-bold">RT</div>
+                    <h3 class="text-xl font-semibold mb-1">Rey Johann T. Tansingco</h3>
+                    <p class="text-blue-400">Community Outreach</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl text-center">
+                    <div class="w-24 h-24 mx-auto rounded-full bg-purple-500 mb-4 flex items-center justify-center text-2xl font-bold">RJ</div>
+                    <h3 class="text-xl font-semibold mb-1">Rhina Jean D. Tapalla</h3>
+                    <p class="text-purple-400">Program Coordinator</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl text-center">
+                    <div class="w-24 h-24 mx-auto rounded-full bg-amber-500 mb-4 flex items-center justify-center text-2xl font-bold">JC</div>
+                    <h3 class="text-xl font-semibold mb-1">John Michael C. Carbajosa</h3>
+                    <p class="text-amber-400">Tech & Innovation</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl text-center">
+                    <div class="w-24 h-24 mx-auto rounded-full bg-pink-500 mb-4 flex items-center justify-center text-2xl font-bold">RC</div>
+                    <h3 class="text-xl font-semibold mb-1">Rolan Christian I. Clamaña</h3>
+                    <p class="text-pink-400">Sustainability Expert</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl text-center">
+                    <div class="w-24 h-24 mx-auto rounded-full bg-indigo-500 mb-4 flex items-center justify-center text-2xl font-bold">MP</div>
+                    <h3 class="text-xl font-semibold mb-1">Mark Anthony Perez</h3>
+                    <p class="text-indigo-400">Finance & Operations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+        VANTA.WAVES({
+            el: "#hero",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x0,
+            shininess: 35.00,
+            waveHeight: 15.00,
+            waveSpeed: 0.80,
+            zoom: 0.9
+        });
+    </script>
+</body>
+</html>
